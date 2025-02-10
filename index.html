@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <div class="search-bar">
+                    <label for="search"><img src="./images/magnify.svg" width="20px" class="magnify"></label>
+                    <input type="search" id="search" name="search">
+                </div>
+                <div class="login-bar">
+                    <img src="./images/bell-ring-outline.svg" width="25px">
+                    <div class="profile-photo"></div>
+                    <div class="login-name roboto-bold">Morgan Oakley</div>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="left-header-bottom">
+                    <div class="profile-photo-larger"></div>
+                    <div class="left-greeting">
+                        <div class="small-greeting roboto-bold">Hi there,</div>
+                        <div class="greeting-name roboto-bold">Morgan Oakley (@morgan)</div>
+                    </div>
+                </div>
+                <div class="right-buttons">
+                    <button type="button" class="new">New</button>
+                    <button type="button" class="upload">Upload</button>
+                    <button type="button" class="share">Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-top">
+                <img src="./images/dashboard.svg" class="filter-white" width=90%>
+                <div class="sidebar-title roboto-bold">Dashboard</div>
+            </div>
+            <ul class="nav">
+                <li><img src="./images/home.svg" class="filter-white" width=60%>Home</li>
+                <li><img src="./images/profile.svg" class="filter-white" width=60%>Profile</li>
+                <li><img src="./images/messages.svg" class="filter-white" width=60%>Messages</li>
+                <li><img src="./images/history.svg" class="filter-white" width=60%>History</li>
+                <li><img src="./images/tasks.svg" class="filter-white" width=60%>Tasks</li>
+                <li><img src="./images/communities.svg" class="filter-white" width=60%>Communities</li>
+            </ul>
+
+            <ul class="settings">
+                <li><img src="./images/settings.svg" class="filter-white" width=60%>Settings</li>
+                <li><img src="./images/support.svg" class="filter-white" width=60%>Support</li>
+                <li><img src="./images/privacy.svg" class="filter-white" width=60%>Privacy</li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="left-main">
+                <div class="left-main-title roboto-bold">Your Projects</div>
+                <div class="project-cards">
+                    <div class="cards">
+                        <p class="title roboto-bold">Super Cool Project</p>
+                        <p class="card-text">Sed tempus ut lacus ut sclererisque. Suspendisse sollicitudin nibh erat, id 
+                            facilisis felis accumasan nec.</p>
+                        <div class="icons">
+                            <img src="./images/star-plus.svg" class="star" width=20px>
+                            <img src="./images/eye.svg" class="eye" width=20px>
+                            <img src="./images/share.svg" class="share" width=20px>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <p class="title roboto-bold">Less Cool Project</p>
+                        <p class="card-text">Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et,
+                            facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.
+                        </p>
+                        <div class="icons">
+                            <img src="./images/star-plus.svg" class="star" width=20px>
+                            <img src="./images/eye.svg" class="eye" width=20px>
+                            <img src="./images/share.svg" class="share" width=20px>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <p class="title roboto-bold">Impossible App</p>
+                        <p class="card-text">In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                        <div class="icons">
+                            <img src="./images/star-plus.svg" class="star" width=20px>
+                            <img src="./images/eye.svg" class="eye" width=20px>
+                            <img src="./images/share.svg" class="share" width=20px>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <p class="title roboto-bold">Easy Peasy App</p>
+                        <p class="card-text">Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.
+                            Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                        <div class="icons">
+                            <img src="./images/star-plus.svg" class="star" width=20px>
+                            <img src="./images/eye.svg" class="eye" width=20px>
+                            <img src="./images/share.svg" class="share" width=20px>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <p class="title roboto-bold">Ad Blocker</p>
+                        <p class="card-text">Qiusque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra
+                            hendrerit felis. Aliquam sed malesuada eros.</p>
+                        <div class="icons">
+                            <img src="./images/star-plus.svg" class="star" width=20px>
+                            <img src="./images/eye.svg" class="eye" width=20px>
+                            <img src="./images/share.svg" class="share" width=20px>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <p class="title roboto-bold">Money Maker</p>
+                        <p class="card-text">Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac sclererisque
+                            tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+                        <div class="icons">
+                            <img src="./images/star-plus.svg" class="star" width=20px>
+                            <img src="./images/eye.svg" class="eye" width=20px>
+                            <img src="./images/share.svg" class="share" width=20px>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-main">
+                <div class="title-announcements roboto-bold">Announcements</div>
+                <div class="announcements-section">
+                    <div class="announcement-card">
+                        <p class="announcement-title roboto-bold">Site Maintenance</p>
+                        <p class="announce-text">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+                            Donec hendrerit sodales congue...
+                        </p>
+                    </div>
+                    <div class="announcement-card">
+                        <p class="announcement-title roboto-bold">Community Share Day</p>
+                        <p class="announce-text">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...
+                        </p>
+                    </div>
+                    <div class="announcement-card">
+                        <p class="announcement-title roboto-bold">Updated Privacy Policy</p>
+                        <p class="announce-text">Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctur.
+                            Cras fringilla sagittis sem in mattis...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="title-trending roboto-bold">Trending</div>
+                <div class="trending-container">
+                    <div class="trending-accounts">
+                        <div class="profile-photo"></div>
+                        <div class="trending-account-cards">
+                            <p class="handle">@tegan</p>
+                            <p class="description">World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending-accounts">
+                        <div class="profile-photo"></div>
+                        <div class="trending-account-cards">
+                            <p class="handle">@morgan</p>
+                            <p class="description">Super Cool Project</p>
+                        </div>
+                    </div>
+                    <div class="trending-accounts">
+                        <div class="profile-photo"></div>
+                        <div class="trending-account-cards">
+                            <p class="handle">@kendall</p>
+                            <p class="description">Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="trending-accounts">
+                        <div class="profile-photo"></div>
+                        <div class="trending-account-cards">
+                            <p class="handle">@alex</p>
+                            <p class="description">No Traffic Maker</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
